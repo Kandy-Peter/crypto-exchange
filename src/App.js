@@ -1,8 +1,11 @@
 import React from 'react';
+import Cryptos from './components/Cryptos';
+import Header from './components/Header';
 
 const App = () => (
   <div className="App">
-    My app
+    <Header />
+    <Cryptos />
   </div>
 );
 

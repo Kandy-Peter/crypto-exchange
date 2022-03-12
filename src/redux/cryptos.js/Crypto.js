@@ -17,7 +17,7 @@ export const fecthCryptos = async (dispatch) => {
   dispatch(fetchData(request));
 };
 
-const reducer = (state = initialState, action) => {
+const reducers = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_DATA:
       return {
@@ -28,4 +28,4 @@ const reducer = (state = initialState, action) => {
   }
 };
 
-export default reducer;
+export default reducers;
