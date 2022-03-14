@@ -1,0 +1,44 @@
+@import './_colors';
+
+.cryptos_row {
+  .description {
+    width: 100%;
+    height: 40px;
+    color: $gen_color;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: $dark_blue;
+  }
+
+  .all_cryptos {
+    display: flex;
+    flex-wrap: wrap;
+
+    .container {
+      color: $gen_color;
+      width: 50%;
+
+      &:nth-child(odd) {
+        background-color: $blue_color;
+      }
+
+      &:nth-child(even) {
+        background-color: #4c73bb;
+      }
+
+      &:nth-child(4n-1) {
+        background-color: #4c73bb;
+      }
+
+      &:nth-child(4n) {
+        background-color: $blue_color;
+      }
+
+      img {
+        width: 80px;
+        height: 80px;
+        background-color: transparent;
+      }
+    }
+  }
+}
