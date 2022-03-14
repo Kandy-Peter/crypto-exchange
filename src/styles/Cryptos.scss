@@ -17,7 +17,7 @@
     .container {
       color: $gen_color;
       width: 50%;
-  
+
       &:nth-child(odd) {
         background-color: $blue_color;
       }
@@ -29,6 +29,7 @@
       &:nth-child(4n-1) {
         background-color: #4c73bb;
       }
+
       &:nth-child(4n) {
         background-color: $blue_color;
       }
