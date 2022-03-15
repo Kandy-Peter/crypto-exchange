@@ -75,7 +75,7 @@ const Images = (coin) => {
       return 'https://s2.coinmarketcap.com/static/img/coins/200x200/1808.png';
     case 'THETAUSDT':
       return 'https://s2.coinmarketcap.com/static/img/coins/200x200/2416.png';
-    case 'ENJUSDT':
+    case 'BCCUSDT':
       return 'https://s2.coinmarketcap.com/static/img/coins/200x200/2130.png';
     case 'MITHUSDT':
       return 'https://s2.coinmarketcap.com/static/img/coins/200x200/2608.png';

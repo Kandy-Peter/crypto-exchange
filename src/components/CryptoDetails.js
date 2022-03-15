@@ -3,6 +3,7 @@ import { IoIosArrowBack } from 'react-icons/io';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, useParams } from 'react-router-dom';
 import { fecthCryptos } from '../redux/cryptos.js/Crypto';
+import Image from '../Images/Coins';
 
 const CryptoDatails = () => {
   const myCoins = useSelector((state) => state.reducers.cryptos);
@@ -26,7 +27,7 @@ const CryptoDatails = () => {
             <p>{detail.symbol}</p>
           </div>
           <div className="main-clm">
-            <img src="" alt="crypto-img" />
+            <img src={Image(detail.symbol)} alt="crypto-img" />
             <h1>{detail.symbol}</h1>
           </div>
           <span>CRYPTO DETAILS:</span>
