@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&display=swap');
+@import './_colors';
 
 * {
   margin: 0;
@@ -7,6 +8,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
-a {
-  text-decoration: none;
+body {
+  background-color: $blue_color;
+
+  a {
+    text-decoration: none;
+  }
 }
