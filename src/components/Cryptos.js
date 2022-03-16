@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { FaArrowCircleRight } from 'react-icons/fa';
 import { RiSearchLine } from 'react-icons/ri';
-import { fecthCryptos } from '../redux/cryptos.js/Crypto';
+import { fecthCryptos } from '../redux/cryptos/Crypto';
 import Header from './Header';
 import Image from '../Images/Coins';
 import Loading from './loader';

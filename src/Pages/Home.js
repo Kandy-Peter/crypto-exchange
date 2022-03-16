@@ -14,7 +14,7 @@ const Home = () => {
   };
 
   return (
-    <div className="header-container" data-theme={theme}>
+    <div className="header-container" data-theme={theme} data-testid="home-page">
       <div className="head">
         <h1>CoinTracker</h1>
         <div className="icons">

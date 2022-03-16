@@ -1,7 +1,7 @@
 import { combineReducers, applyMiddleware, createStore } from 'redux';
 import thunk from 'redux-thunk';
 import logger from 'redux-logger';
-import reducers from './cryptos.js/Crypto';
+import reducers from './cryptos/Crypto';
 
 const reducer = combineReducers({
   reducers,

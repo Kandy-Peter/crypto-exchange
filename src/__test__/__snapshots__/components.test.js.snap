@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cryptos components it render correctly 1`] = `
+<div
+  className="cryptos_row"
+>
+  <div
+    className="loader"
+    data-testid="loading-page"
+  >
+    <span
+      className="line1"
+    />
+    <span
+      className="line2"
+    />
+    <span
+      className="line3"
+    />
+    <span
+      className="line4"
+    />
+    <span
+      className="line5"
+    />
+    <span
+      className="line6"
+    />
+    <span
+      className="line7"
+    />
+  </div>
+</div>
+`;
+
+exports[`test the Home page test render snapshot for home page 1`] = `
+<div
+  className="header-container"
+  data-testid="home-page"
+  data-theme="pink"
+>
+  <div
+    className="head"
+  >
+    <h1>
+      CoinTracker
+    </h1>
+    <div
+      className="icons"
+    >
+      <svg
+        className="icons-menu"
+        fill="currentColor"
+        height="1em"
+        onClick={[Function]}
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 0h24v24H0V0z"
+          fill="none"
+        />
+        <path
+          d="M12 4.81V19c-3.31 0-6-2.63-6-5.87 0-1.56.62-3.03 1.75-4.14L12 4.81M6.35 7.56C4.9 8.99 4 10.96 4 13.13 4 17.48 7.58 21 12 21s8-3.52 8-7.87c0-2.17-.9-4.14-2.35-5.57L12 2 6.35 7.56z"
+        />
+      </svg>
+      <svg
+        className="icons-menu"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M256 176a80 80 0 1080 80 80.24 80.24 0 00-80-80zm172.72 80a165.53 165.53 0 01-1.64 22.34l48.69 38.12a11.59 11.59 0 012.63 14.78l-46.06 79.52a11.64 11.64 0 01-14.14 4.93l-57.25-23a176.56 176.56 0 01-38.82 22.67l-8.56 60.78a11.93 11.93 0 01-11.51 9.86h-92.12a12 12 0 01-11.51-9.53l-8.56-60.78A169.3 169.3 0 01151.05 393L93.8 416a11.64 11.64 0 01-14.14-4.92L33.6 331.57a11.59 11.59 0 012.63-14.78l48.69-38.12A174.58 174.58 0 0183.28 256a165.53 165.53 0 011.64-22.34l-48.69-38.12a11.59 11.59 0 01-2.63-14.78l46.06-79.52a11.64 11.64 0 0114.14-4.93l57.25 23a176.56 176.56 0 0138.82-22.67l8.56-60.78A11.93 11.93 0 01209.94 26h92.12a12 12 0 0111.51 9.53l8.56 60.78A169.3 169.3 0 01361 119l57.2-23a11.64 11.64 0 0114.14 4.92l46.06 79.52a11.59 11.59 0 01-2.63 14.78l-48.69 38.12a174.58 174.58 0 011.64 22.66z"
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    className="cryptos_row"
+  >
+    <div
+      className="loader"
+      data-testid="loading-page"
+    >
+      <span
+        className="line1"
+      />
+      <span
+        className="line2"
+      />
+      <span
+        className="line3"
+      />
+      <span
+        className="line4"
+      />
+      <span
+        className="line5"
+      />
+      <span
+        className="line6"
+      />
+      <span
+        className="line7"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`test the Loading page test loading snapshot for loading page 1`] = `
+<div
+  className="loader"
+  data-testid="loading-page"
+>
+  <span
+    className="line1"
+  />
+  <span
+    className="line2"
+  />
+  <span
+    className="line3"
+  />
+  <span
+    className="line4"
+  />
+  <span
+    className="line5"
+  />
+  <span
+    className="line6"
+  />
+  <span
+    className="line7"
+  />
+</div>
+`;
