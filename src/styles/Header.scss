@@ -1,0 +1,43 @@
+@import './_colors';
+
+.header-container {
+  color: var(--text-primary);
+  width: 100%;
+
+  .head {
+    background: var(--background);
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    box-shadow: 1px 2px 10px 5px #181c22;
+
+    h1,
+    .icons {
+      font-size: 22px;
+    }
+
+    .icons-menu {
+      margin-left: 1.2rem;
+    }
+  }
+
+  .breaderHumb {
+    text-align: end;
+    height: 200px;
+    background: linear-gradient(270deg, var(--first-gradient) 49%, var(--second-gradient) 100%), url(../Images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    font-size: 22px;
+    padding: 1.5rem;
+    padding-top: 3rem;
+    font-weight: 700;
+    color: var(--text-primary);
+
+    .date {
+      font-size: 18px;
+    }
+  }
+}
