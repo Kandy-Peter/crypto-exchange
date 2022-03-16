@@ -10,6 +10,8 @@ It helps them to keep an eye on the top trends on the market, crypto prices, and
 
 ## Screenchot
 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/80612925/158625981-07295955-cb04-484e-87f2-fa66685ce871.gif)
+
 ## Demo Link
 [crypto-currency](https://reverent-dubinsky-40ea41.netlify.app/)
 ## Loom Link
