@@ -26,14 +26,18 @@
   .breaderHumb {
     text-align: end;
     height: 200px;
-    background: linear-gradient(270deg, var(--first-gradient) 49%, var(--second-gradient) 100%),url(../Images/background.jpg);
+    background: linear-gradient(270deg, var(--first-gradient) 49%, var(--second-gradient) 100%), url(../Images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
-    font-size: 26px;
+    font-size: 22px;
     padding: 1.5rem;
     padding-top: 3rem;
     font-weight: 700;
     color: var(--text-primary);
+
+    .date {
+      font-size: 18px;
+    }
   }
 }

@@ -14,7 +14,7 @@ const Header = () => {
       <div className="breaderHumb">
         Today&apos;s Crypto!
         <br />
-        <FormatDate />
+        <span className="date"><FormatDate /></span>
       </div>
     </div>
   );

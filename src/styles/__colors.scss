@@ -2,21 +2,20 @@ $gen_color: #fff;
 $blue_color: #4369b2;
 $dark_blue: #3b5a9a;
 
-
 :root {
-    --background: #4369b2;
-    --text-primary: #fff;
-    --bg-secondary: #3b5a9a;
-    --card-color-2: #4c73bb;
-    --first-gradient: rgba(23,83,146,1);
-    --second-gradient: rgba(0,78,191,0);
-  }
-  
+  --background: #4369b2;
+  --text-primary: #fff;
+  --bg-secondary: #3b5a9a;
+  --card-color-2: #4c73bb;
+  --first-gradient: rgba(23, 83, 146, 1);
+  --second-gradient: rgba(0, 78, 191, 0);
+}
+
 [data-theme='pink'] {
-    --background: #dc4782;
-    --text-primary: #fff;
-    --card-color-2: #cf4278;
-    --bg-secondary: #cf4278;
-    --first-gradient: #cf4278;
-    --second-gradient: rgba(0,78,191,0);
+  --background: #dc4782;
+  --text-primary: #fff;
+  --card-color-2: #cf4278;
+  --bg-secondary: #cf4278;
+  --first-gradient: #cf4278;
+  --second-gradient: rgba(0, 78, 191, 0);
 }
