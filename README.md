@@ -11,7 +11,7 @@ It helps them to keep an eye on the top trends on the market, crypto prices, and
 ## Screenchot
 
 ## Demo Link
-[crypto-currency]()
+[crypto-currency](https://reverent-dubinsky-40ea41.netlify.app/)
 ## Loom Link
 [representaion]()
 ## Built With
