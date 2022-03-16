@@ -7,7 +7,7 @@
     color: $gen_color;
     font-size: 16px;
     font-weight: 600;
-    background-color: $dark_blue;
+    background-color: var(--bg-secondary);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,7 +23,7 @@
       cursor: pointer;
       padding: 12px;
       border-radius: 30px;
-      box-shadow: 0 5px 15px #363c44;
+      box-shadow: 0 2px 10px #686868;
 
       &:hover input {
         width: 210px;
@@ -40,7 +40,7 @@
       a #search-icon {
         display: flex;
         align-items: center;
-        color: $blue_color;
+        color: var(--background);
         font-size: 18px;
       }
 
@@ -52,26 +52,26 @@
     flex-wrap: wrap;
 
     .container {
-      color: $gen_color;
+      color: var(--text-primary);
       width: 50%;
       font-size: 14px;
       text-align: center;
       padding: 0.4rem;
 
       &:nth-child(odd) {
-        background-color: $blue_color;
+        background-color: var(--background);
       }
 
       &:nth-child(even) {
-        background-color: #4c73bb;
+        background-color: var(--card-color-2);
       }
 
       &:nth-child(4n-1) {
-        background-color: #4c73bb;
+        background-color: var(--card-color-2);
       }
 
       &:nth-child(4n) {
-        background-color: $blue_color;
+        background-color: var(--background);
       }
 
       .card-row {

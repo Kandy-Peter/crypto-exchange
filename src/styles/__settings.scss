@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: $blue_color;
+  background-color: var(--background);
 
   a {
     text-decoration: none;

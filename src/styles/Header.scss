@@ -1,12 +1,11 @@
 @import './_colors';
 
 .header-container {
-  color: #fff;
+  color: var(--text-primary);
   width: 100%;
-  background-color: rgb(15, 15, 15);
 
   .head {
-    background: $blue_color;
+    background: var(--background);
     height: 40px;
     display: flex;
     justify-content: space-between;
@@ -27,14 +26,14 @@
   .breaderHumb {
     text-align: end;
     height: 200px;
-    background: linear-gradient(270deg, rgba(23,83,146,1) 49%, rgba(0,78,191,0) 100%),url(../Images/background.jpg);
-    background-size: contain;
+    background: linear-gradient(270deg, var(--first-gradient) 49%, var(--second-gradient) 100%),url(../Images/background.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
-    font-size: 30px;
-    padding: 2rem;
+    font-size: 26px;
+    padding: 1.5rem;
+    padding-top: 3rem;
     font-weight: 700;
-    padding-right: 3rem;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--text-primary);
   }
 }

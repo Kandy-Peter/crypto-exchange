@@ -11,7 +11,7 @@
   span {
     width: 7px;
     height: 60px;
-    background-color: $gen_color;
+    background-color: var(--text-primary);
     margin: 0 5px;
     border-radius: 5px;
     animation: loading 0.7s infinite linear;

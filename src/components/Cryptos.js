@@ -11,7 +11,6 @@ import Loading from './loader';
 const Cryptos = () => {
   const cryptos = useSelector((state) => state.reducers.cryptos)
     .filter((coin) => coin.symbol.includes('USDT'));
-  // const loader = useSelector((state) => state.reducers.loading);
   const dispatch = useDispatch();
 
   const [search, setSearch] = useState('');
@@ -33,7 +32,6 @@ const Cryptos = () => {
     <div className="cryptos_row">
       {!matchValue.length ? (<Loading />) : (
         <>
-          {' '}
           <Header />
           <div className="description">
             Top 30:
