@@ -21,7 +21,6 @@ const reducers = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_DATA:
       return {
-        loading: false,
         ...state,
         cryptos: action.payload,
       };

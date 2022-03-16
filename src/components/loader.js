@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Loading = () => (
-  <div className="loader">
+  <div className="loader" data-testid="loading-page">
     <span className="line1" />
     <span className="line2" />
     <span className="line3" />

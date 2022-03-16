@@ -10,7 +10,7 @@ const Header = () => {
   ].join('/');
 
   return (
-    <div className="header-container">
+    <div className="header-container" data-testid="header-page">
       <div className="breaderHumb">
         Today&apos;s Crypto!
         <br />

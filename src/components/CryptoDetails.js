@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { IoIosArrowBack } from 'react-icons/io';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, useParams } from 'react-router-dom';
-import { fecthCryptos } from '../redux/cryptos.js/Crypto';
+import { fecthCryptos } from '../redux/cryptos/Crypto';
 import Image from '../Images/Coins';
 
 const CryptoDatails = () => {
